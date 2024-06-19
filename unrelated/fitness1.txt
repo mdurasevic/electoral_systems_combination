@@ -1,0 +1,92 @@
+// DIO ZA GP
+// okruzenje:
+//single
+//uniform
+unrelated
+//jobshop
+
+// broj skupova
+sets		100
+
+// najveci broj poslova u skupovima
+max_jobs	100
+
+// najveci broj strojeva u skupovima
+max_machines	10
+
+// brojevi poslova po skupovima
+jobs		100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+
+// brojevi strojeva po skupovima
+machines	10 10  10 10 10 10 10  10 10 10 10 10  10 10 10 10  10 10 10 10 10 10  10 10 10 10 10  10 10 10 10 10  10 10 10 10  10 10 10 10 10 10  10 10 10 10 10  10 10 10 10 10  10 10 10 10  10 10 10 10  10  10 10 10 10  10  10 10 10 10  10  10 10 10 10  10  10 10 10 10  10  10 10 10 10  10  10 10 10 10  10  10 10 10 10 10  10 10 10 10
+
+// najdulje trajanje
+max_length	50
+
+// sequence dependent setups
+// vrijednost je prosjecni omjer trajanja postavljanja u odnosu na trajanje posla
+//setup	0.5
+
+// ogranicenja
+//constraints	fitness_constraints1.txt
+
+// datoteka sa dolascima poslova
+// ako je nema, problem je static
+ready		fitness_ready1.txt
+
+// datoteka sa trajanjima, sets x max_jobs
+// za raznorodno okruzenje, trajanja su zakodirana za svaki posao i svaki stroj
+duration	fitness_duration1.txt
+
+// datoteka sa deadline-ima, sets x max_jobs
+deadline	fitness_deadline1.txt
+
+deadline2	fitness_deadline1.txt
+
+// datoteka sa ukupnim trajanjima poslova
+SP		fitness_SP1.txt
+
+// datoteke sa tezinskim faktorima za kasnjenje
+weight_F	fitness_weight1.txt	// protjecanje
+weight_T	fitness_weight1.txt	// zakasnjelost
+weight_E	fitness_weight_E_1.txt	// preuranjenost
+weight_N	fitness_weight1.txt	// prekoracenje
+weight_C	fitness_weight_C_1.txt	// prekoracenje
+
+// koja fitnes funkcija se gleda (Twt, Nwt, FTwt, ETwt...)
+fitness		Twt
+
+// aktivni terminali
+T_pt
+T_dd
+T_w
+T_SL
+T_pmin
+T_pavg
+T_PAT
+T_MR
+T_age
+//T_AR
+//T_SC
+//T_LVL
+//T_STP
+//T_Sav
+
+// limited error fitness - hocemo li koristiti i koja je granicna vrijednost
+LEF 		0
+LEF_value 	1000000
+
+// editiranje?
+editing		1
+
+evaluation	1
+
+
+// DIO ZA KREIRANJE
+// parametri raspodjele za skupove - vektori duljine <sets>
+// vrijednosti R, T po skupovima
+// SETVAR1 i 2 i 3 i 4 i 5 - vise nije zapravo, neke moje vrijednosti
+R.		.6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. .6 .7 .8 .9 1. 
+
+T.		.6 .6 .6 .6 .6 .7 .7 .7 .7 .7 .8 .8 .8 .8 .8 .9 .9 .9 .9 .9 1. 1. 1. 1. 1. .6 .6 .6 .6 .6 .7 .7 .7 .7 .7 .8 .8 .8 .8 .8 .9 .9 .9 .9 .9 1. 1. 1. 1. 1. .6 .6 .6 .6 .6 .7 .7 .7 .7 .7 .8 .8 .8 .8 .8 .9 .9 .9 .9 .9 1. 1. 1. 1. 1. .8 .8 .8 .8 .8 .9 .9 .9 .9 .9 1. 1. 1. 1. 1.
+

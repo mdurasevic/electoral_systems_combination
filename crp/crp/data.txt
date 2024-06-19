@@ -1,0 +1,30 @@
++ - * + RI DUR * * RI DUR DUR / DUR + + DIFF DIS DIS * / DUR + SH + DUR DIS DUR 
+- / + - / DUR RI + DUR RI - * DUR RI + DUR SH + DIS + + DIS SH DIFF - DIS + / DUR RI + - DUR RI * DUR RI 
++ + * * DUR DUR * DUR RI + + * DIS EMP + EMP EMP + DUR EMP + + + * RI DIFF DUR + / DIFF SH DUR + EMP + - DUR DIS + DUR DUR 
++ + - * / DIFF DUR * SH EMP / / DIFF DUR / RI SH - * * DUR RI - DUR EMP + / EMP DUR SH + DUR - / DIFF DUR * SH EMP 
++ + * / - DIFF DUR + DUR DIFF EMP - * * DUR DUR RI SH + + DUR / - RI SH DIFF EMP 
++ + - * * DUR DUR * RI DUR / * DUR EMP + DUR DIFF / - DIFF EMP * EMP SH - + + EMP DUR / DIFF + DUR DIFF SH 
++ + * * * RI DUR DUR DUR + / - RI EMP DIFF EMP + + / - RI EMP DIFF EMP + / - RI EMP DIFF DUR 
++ + * DUR * * DUR DUR + RI RI * * DUR DUR * - SH RI * DUR RI + - * / SH RI - DUR SH SH + / * RI SH - SH EMP + - EMP RI * DUR RI 
++ + - / DUR * DUR DUR * * SH RI * EMP EMP + DUR * * RI DUR * RI DUR - * * DUR * DUR RI * DUR DUR - / DUR * DUR DUR + EMP + EMP EMP 
++ + EMP * * + DUR DUR * DUR RI - RI - EMP DUR + + EMP + EMP + DUR DUR * * / SH DUR DIFF + EMP / DIFF RI 
++ - * DUR / * RI RI / RI DUR - SH / * SH DIFF + EMP DUR + / / + SH DIFF EMP / * SH EMP / DIFF DUR EMP 
++ + / - * SH EMP - DUR DIFF * EMP SH RI - * * - DUR EMP - DUR EMP * RI DUR - - * SH EMP - EMP DIFF + + DUR DIS + RI DIFF 
+- + + / - DUR SH - DUR RI * DUR RI + - DUR * DUR RI * * DUR RI DUR - * / - DUR SH / DUR EMP / - EMP DIFF + DIS DIFF * / - DIFF DUR / DUR EMP - - SH RI RI 
++ - + / + DUR EMP + DUR DUR / * SH DIFF + SH DUR - - - SH EMP * RI DIFF + DUR RI * RI + + - EMP SH DUR * + RI DUR * DUR DUR 
++ * / * SH - DIFF SH + * SH DUR * DUR RI DUR - * / * RI DIS / DIS DUR * + SH DUR - DUR RI - - + SH SH + DUR DUR + DUR DUR 
++ * + * + DUR DUR * DUR RI / - DIFF DUR + DUR SH SH + + EMP / - EMP SH / DUR SH + * * DUR RI * DUR DUR DUR 
++ + / + * SH EMP DUR - RI + DIFF DIS * * * DUR RI * DUR SH + / DUR SH + RI RI - + DUR + RI EMP / - RI / EMP DUR / / RI RI DIFF 
++ + * * * DUR RI DUR + RI DUR + + DUR EMP / + EMP EMP / DUR SH / * + * EMP DIFF / SH SH SH - + DUR DUR * / EMP EMP / DUR SH 
++ + * DUR * * RI DUR DUR + EMP - DUR SH / - + * DIFF EMP DUR * / DIFF EMP - DIFF RI - RI * SH + DIFF DIS 
++ + * EMP EMP + DUR DUR + * * * RI DUR / DUR DUR DUR + * * DUR RI * DUR DUR / * DIFF SH * SH EMP 
++ + + * RI - EMP DIS + + EMP DUR * RI DUR + - EMP SH * / DIFF DUR / SH EMP * * DUR * RI DUR + * DUR DUR * / DUR RI DIS 
++ + * * + DUR DIS * DUR RI - - DUR DIS DIS - / + DUR DIS * RI RI / - DUR SH + DIFF DIS + + * DIFF * DUR RI + - DUR DIS EMP - - DUR DIS / - DUR DIS * DUR DIS 
++ + + + DUR EMP + DUR DUR * * DUR * DUR DUR RI - + * + RI EMP + DIS EMP + + DUR DUR DUR - * * DUR DUR + RI RI * / DIFF SH + RI SH 
+- + / * DIFF SH * + EMP SH + RI SH * + / SH RI * RI DUR - + DUR EMP - SH DIS + + SH * / EMP SH + RI SH + RI * / EMP SH SH 
+- + DUR + EMP / DIFF * EMP SH - - / - DIS DUR DUR * * DUR RI * DUR DUR / * / EMP DUR - DUR SH - * RI DUR - SH RI 
++ + + * * DUR DUR * DUR RI DUR EMP / / - EMP * DUR DIS - * DIS SH * DUR DIS / SH / DIFF EMP 
+- + * * DUR * EMP RI SH - + SH + DIS EMP + - SH DUR * SH EMP - * * * DUR RI - EMP DUR + * DUR RI * DUR DUR / / * SH DIFF SH + - SH RI EMP 
++ + / + RI + DUR RI - RI + DIS DIFF + + * RI RI + EMP DUR * * DUR DUR * RI DUR + - / EMP DUR / RI - SH EMP EMP 
++ * * RI + SH + DUR RI * DUR DUR - - - DUR SH - SH EMP * / DIFF - SH DUR + SH SH 
+- + - + RI EMP - SH DUR - * + SH DUR * DUR RI / * DIFF SH - EMP DUR - + - + SH RI / RI RI * - SH DUR RI - / * DUR RI / DIS SH / DUR + DIS DIFF 

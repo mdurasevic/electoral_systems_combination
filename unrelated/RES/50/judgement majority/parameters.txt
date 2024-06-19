@@ -1,0 +1,37 @@
+<ECF>
+	<Algorithm>
+		<SteadyStateTournament>
+			<Entry key="tsize">3</Entry> <!-- velicina turnira -->
+		</SteadyStateTournament>
+	</Algorithm>
+
+	<Genotype>
+		<Tree>
+			<Entry key="maxdepth">5</Entry>
+			<Entry key="mindepth">1</Entry>
+			<Entry key="functionset">+ - / * pos</Entry>
+			<Entry key="terminalset">pt dd w SL pmin pavg PAT MR age</Entry>
+		</Tree>
+	</Genotype>
+
+		<ProbabilisticTree>
+			<Entry key="maxdepth">5</Entry>
+			<Entry key="mindepth">1</Entry>
+			<Entry key="functionset">+ - / * pos</Entry>
+			<Entry key="terminalset">pt dd w SL pmin pavg PAT MR age</Entry>
+		</ProbabilisticTree>
+		
+
+	<Registry>
+		<Entry key="population.size">1000</Entry>
+		<Entry key="population.demes">1</Entry>
+		<Entry key="mutation.indprob">0.7</Entry> 
+		<Entry key="term.maxgen">80</Entry> <!-- max broj generacija -->
+		<Entry key="log.level">3</Entry>
+		<Entry key="log.filename">log.txt</Entry>
+		<Entry key="test_cases">./fitness.txt</Entry>
+		<Entry key="normalized">0</Entry>
+		<Entry key="test_cases2">./fitness2.txt</Entry>
+	</Registry>
+</ECF>
+

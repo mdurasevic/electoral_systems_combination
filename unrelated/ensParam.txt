@@ -1,0 +1,5 @@
+method eval
+size 5
+combination sum
+repetitions 100
+jobCount 2

@@ -1,0 +1,89 @@
+// DIO ZA GP
+// okruzenje:
+//single
+//uniform
+unrelated
+//jobshop
+
+// broj skupova
+sets		60
+
+// najveci broj poslova u skupovima
+max_jobs	100
+
+// najveci broj strojeva u skupovima
+max_machines	10
+
+// brojevi poslova po skupovima
+jobs		12 12 12 12 12 25 25 25 25 25 50 50 50 50 50 100 100 100 100 100 12 12 12 12 12 25 25 25 25 25 50 50 50 50 50 100 100 100 100 100 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 100 100 100 100 100 
+
+// brojevi strojeva po skupovima
+machines	3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3   3   3   3   3	6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6   6   6   6   6	10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10  10  10  10  10
+
+// najdulje trajanje
+max_length	100
+
+// sequence dependent setups
+// vrijednost je prosjecni omjer trajanja postavljanja u odnosu na trajanje posla
+//setup	0.5
+
+// ogranicenja
+//constraints	fitness_constraints.txt
+
+// datoteka sa dolascima poslova
+// ako je nema, problem je static
+ready		fitness_ready.txt
+
+// datoteka sa trajanjima, sets x max_jobs
+// za raznorodno okruzenje, trajanja su zakodirana za svaki posao i svaki stroj
+duration	fitness_duration.txt
+
+// datoteka sa deadline-ima, sets x max_jobs
+deadline	fitness_deadline.txt
+
+// datoteka sa ukupnim trajanjima poslova
+SP		fitness_SP.txt
+
+// datoteke sa tezinskim faktorima za kasnjenje
+weight_F	fitness_weight.txt	// protjecanje
+weight_T	fitness_weight.txt	// zakasnjelost
+weight_E	fitness_weight.txt	// preuranjenost
+weight_N	fitness_weight.txt	// prekoracenje
+
+// koja fitnes funkcija se gleda (Twt, Nwt, FTwt, ETwt...)
+fitness		Twt
+
+// aktivni terminali
+T_pt
+T_dd
+T_w
+T_SL
+T_pmin
+T_pavg
+T_PAT
+T_MR
+T_age
+//T_AR
+//T_SC
+//T_LVL
+//T_STP
+//T_Sav
+
+// limited error fitness - hocemo li koristiti i koja je granicna vrijednost
+LEF 		0
+LEF_value 	1000000
+
+// editiranje?
+editing		1
+
+evaluation	1
+
+
+// DIO ZA KREIRANJE
+// parametri raspodjele za skupove - vektori duljine <sets>
+// vrijednosti R, T po skupovima
+// SETVAR1 i 2 i 3 i 4 i 5 - vise nije zapravo, neke moje vrijednosti
+R.		.4 .4 .6 .8 1. .4 .4 .4 .6 .8 .4 .4 .8 .8 1. .4  .6  .4  .8  1. .4 .4 .4 .6 .8 .6 .4 .8 1. 1. .4 .4 .6 .6 .8 .4  .4  .4  .8  1. .4 .4 .4 .8 .8 .4 .4 .6 .8 1. .4 .4 .6 .8 1. .4  .4  .6  .6  .8 .4 .4 .6 .8 .8 .4 .4 .6 .8 1. .4 .6 .4 .4 .6 .4  .6  .4  .6  .8 .4 .4 .6 .8 .8 .6 .4 .4 .6 1. .6 .4 .6 .8 1. .6  .4  .4  .6  1. .4 .6 .4 .4 .6 .6 .8 .8 1. 1. .4 .4 .4 .6 .6 .6  .8  .8  1.  1.
+
+T.		.4 .8 .6 .2 .4 .8 .6 .8 .2 .4 .0 .2 .4 .6 .4 .4  .8  .6  .4  .6 .4 .6 .8 .0 .2 .2 .6 .2 .4 .6 .8 .4 .6 .8 .4 .4  .6  .8  .8  .0 .2 .4 .8 .6 .8 .2 .6 .8 .8 .2 .4 .6 .8 .6 .0 .6  .8  .2  .8  .8 .2 .4 .8 .2 .8 .6 .8 .6 .4 .4 .2 .4 .6 .8 .0 .2  .8  .8  .4  .8 .2 .4 .8 .2 .8 .2 .4 .8 .4 .0 .2 .8 .2 .6 .2 .4  .4  .6  .2  .6 .8 .6 .6 .4 .4 .2 .4 .0 .8 .6 .6 .4 .4 .2 .4 .2  .4  .6  .4  .2
+

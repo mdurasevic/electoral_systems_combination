@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC95F76E-C9E9-4A63-9923-2C205320A779}</ProjectGuid>
+    <RootNamespace>iprojekt</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\boost_1_51;G:\ECF_1.4.2 - 2019;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ECF.lib;user32.lib;kernel32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:\ECF_1.4.2 - 2019\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\boost_1_51;G:\ECF_1.4.2 - 2019;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ECF.lib;user32.lib;kernel32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:\ECF_1.4.2 - 2019\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiPlurality.cpp" />
+    <ClCompile Include="ApprovalVoting.cpp" />
+    <ClCompile Include="BaldwinMethod.cpp" />
+    <ClCompile Include="BordaCount.cpp" />
+    <ClCompile Include="BucklinVoting.cpp" />
+    <ClCompile Include="CombinedApprovalVoting.cpp" />
+    <ClCompile Include="CondorcetMethod.cpp" />
+    <ClCompile Include="ContigentVoting.cpp" />
+    <ClCompile Include="CoombsMethod.cpp" />
+    <ClCompile Include="CopelandMethod.cpp" />
+    <ClCompile Include="CustomAlgorithm.cpp" />
+    <ClCompile Include="DistributedVoting.cpp" />
+    <ClCompile Include="ElectoralSystem.cpp" />
+    <ClCompile Include="ElectionMethodTests.cpp" />
+    <ClCompile Include="ElectoralSystemUtils.cpp" />
+    <ClCompile Include="InstantRunoff.cpp" />
+    <ClCompile Include="fitnes.cpp" />
+    <ClCompile Include="HighestPriorityStrategy.cpp" />
+    <ClCompile Include="IntGenotype.cpp" />
+    <ClCompile Include="IntGenotypeCrxOp.cpp" />
+    <ClCompile Include="IntGenotypeMutOp.cpp" />
+    <ClCompile Include="JudgementMethod.cpp" />
+    <ClCompile Include="KemenyYoungMethod.cpp" />
+    <ClCompile Include="LowestPriorityStrategy.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MajorityVote.cpp" />
+    <ClCompile Include="matrice.cpp" />
+    <ClCompile Include="MiniMax.cpp" />
+    <ClCompile Include="NansonMethod.cpp" />
+    <ClCompile Include="OklahomaMethod.cpp" />
+    <ClCompile Include="PluralityVote.cpp" />
+    <ClCompile Include="PreferentialBlockVoting.cpp" />
+    <ClCompile Include="ProbabilisticPrimitiveGenerator.cpp" />
+    <ClCompile Include="RankedPairs.cpp" />
+    <ClCompile Include="readpar.cpp" />
+    <ClCompile Include="rpn.cpp" />
+    <ClCompile Include="SchulzeMethod.cpp" />
+    <ClCompile Include="ScoreVoting.cpp" />
+    <ClCompile Include="StarVoting.cpp" />
+    <ClCompile Include="SumMethod.cpp" />
+    <ClCompile Include="TidemanAlternativeSmith.cpp" />
+    <ClCompile Include="TreeProbabilisticInit.cpp" />
+    <ClCompile Include="UnifiedPrimary.cpp" />
+    <ClCompile Include="WinnerStrategy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ABS.h" />
+    <ClInclude Include="AntiPlurality.h" />
+    <ClInclude Include="ApprovalVoting.h" />
+    <ClInclude Include="AVG.h" />
+    <ClInclude Include="BaldwinMethod.h" />
+    <ClInclude Include="BordaCount.h" />
+    <ClInclude Include="BucklinVoting.h" />
+    <ClInclude Include="check.h" />
+    <ClInclude Include="CombinedApprovalVoting.h" />
+    <ClInclude Include="CondorcetMethod.h" />
+    <ClInclude Include="ContigentVoting.h" />
+    <ClInclude Include="CoombsMethod.h" />
+    <ClInclude Include="CopelandMethod.h" />
+    <ClInclude Include="CustomAlgorithm.h" />
+    <ClInclude Include="DistributedVoting.h" />
+    <ClInclude Include="ElectoralSystem.h" />
+    <ClInclude Include="ElectionMethodTests.h" />
+    <ClInclude Include="ElectoralSystemUtils.h" />
+    <ClInclude Include="InstantRunoff.h" />
+    <ClInclude Include="fitnes.hpp" />
+    <ClInclude Include="HighestPriorityStrategy.h" />
+    <ClInclude Include="IFGT.h" />
+    <ClInclude Include="IFLT.h" />
+    <ClInclude Include="IntUniqueGenotype.h" />
+    <ClInclude Include="IntUniqueGenotypeCrxOp.h" />
+    <ClInclude Include="IntUniqueGenotypeMutOp.h" />
+    <ClInclude Include="JudgementMethod.h" />
+    <ClInclude Include="KemenyYoungMethod.h" />
+    <ClInclude Include="LateOperator.h" />
+    <ClInclude Include="LowestPriorityStrategy.h" />
+    <ClInclude Include="MajorityVote.h" />
+    <ClInclude Include="matrice.h" />
+    <ClInclude Include="MiniMax.h" />
+    <ClInclude Include="NansonMethod.h" />
+    <ClInclude Include="nodes.h" />
+    <ClInclude Include="OklahomaMethod.h" />
+    <ClInclude Include="PluralityVote.h" />
+    <ClInclude Include="PreferentialBlockVoting.h" />
+    <ClInclude Include="ProbabilisticPrimitiveGenerator.h" />
+    <ClInclude Include="RankedPairs.h" />
+    <ClInclude Include="readpar.h" />
+    <ClInclude Include="rpn.h" />
+    <ClInclude Include="SchulzeMethod.h" />
+    <ClInclude Include="ScoreVoting.h" />
+    <ClInclude Include="SQR.h" />
+    <ClInclude Include="StarVoting.h" />
+    <ClInclude Include="StringUtils.h" />
+    <ClInclude Include="SumMethod.h" />
+    <ClInclude Include="TidemanAlternativeSmith.h" />
+    <ClInclude Include="TreeProbabilisticInit.h" />
+    <ClInclude Include="UnifiedPrimary.h" />
+    <ClInclude Include="WinnerStrategy.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

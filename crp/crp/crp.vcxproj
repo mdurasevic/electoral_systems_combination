@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{481AF3CF-8938-4DDE-A0E2-CC7063E13166}</ProjectGuid>
+    <RootNamespace>iprojekt</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Diplomski\ECF;C:\boost_1_51;G:\ECF_1.4.2 - 2019;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Diplomski\ECF;C:\boost_1_51;G:\ECF_1.4.2 - 2019;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Diplomski\ECF\debug;C:\Users\M\source\repos\crp\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreLinkEvent>
+      <Command>@ECHO ON
+@ECHO "$(VC_ExecutablePath_x86)\lib.exe" /out:"$(OutDir)$(ProjectName).lib" "$(IntermediateOutputPath)*.obj"
+"$(VC_ExecutablePath_x86)\lib.exe" /out:"$(OutDir)$(ProjectName).lib" "$(IntermediateOutputPath)*.obj"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Diplomski\ECF\debug;C:\Users\M\source\repos\crp\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreLinkEvent>
+      <Command>@ECHO ON
+@ECHO "$(VC_ExecutablePath_x86)\lib.exe" /out:"$(OutDir)$(ProjectName).lib" "$(IntermediateOutputPath)*.obj"
+"$(VC_ExecutablePath_x86)\lib.exe" /out:"$(OutDir)$(ProjectName).lib" "$(IntermediateOutputPath)*.obj"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Diplomski\ECF;C:\Diplomski\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Diplomski\ECF\release;G:\ECF_1.4.2 - 2019\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Diplomski\ECF;C:\Diplomski\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Diplomski\ECF\release;G:\ECF_1.4.2 - 2019\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiPlurality.h" />
+    <ClInclude Include="ApprovalVoting.h" />
+    <ClInclude Include="BaldwinMethod.h" />
+    <ClInclude Include="BayFloor.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="BordaCount.h" />
+    <ClInclude Include="BucklinVoting.h" />
+    <ClInclude Include="CasertaDataSetLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="CasertaProblemInstanceGenerator.h" />
+    <ClInclude Include="CasertaProblemSetGenerator.h" />
+    <ClInclude Include="CombinedApprovalVoting.h" />
+    <ClInclude Include="CondorcetMethod.h" />
+    <ClInclude Include="ContainerRelocationSolution.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ContainerSelectionType.h" />
+    <ClInclude Include="ContainerSourceSelectionStrategy.h" />
+    <ClInclude Include="ContigentVoting.h" />
+    <ClInclude Include="CoombsMethod.h" />
+    <ClInclude Include="CopelandMethod.h" />
+    <ClInclude Include="DistributedVoting.h" />
+    <ClInclude Include="DynamicInstanceGenerator.h" />
+    <ClInclude Include="ElectoralSystem.h" />
+    <ClInclude Include="ElectoralSystemUtils.h" />
+    <ClInclude Include="EnsembleAggregationStrategy.h" />
+    <ClInclude Include="EnsembleDecisionStrategy.h" />
+    <ClInclude Include="Evaluator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="GlobalRetrievalHeuristicSettings.h" />
+    <ClInclude Include="HighestPriorityStrategy.h" />
+    <ClInclude Include="InstantRunoff.h" />
+    <ClInclude Include="JudgementMethod.h" />
+    <ClInclude Include="KemenyYoungMethod.h" />
+    <ClInclude Include="LeeProblemInstanceGenerator.h" />
+    <ClInclude Include="LeeProblemSetGenerator.h" />
+    <ClInclude Include="Location.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ContainerMove.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ContainerYard.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="DataSetLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="LeeDataSetLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="LowestPriorityStrategy.h" />
+    <ClInclude Include="MajorityVote.h" />
+    <ClInclude Include="MiniMax.h" />
+    <ClInclude Include="MinimumAggregationStrategy.h" />
+    <ClInclude Include="MinMax.h" />
+    <ClInclude Include="NansonMethod.h" />
+    <ClInclude Include="OklahomaMethod.h" />
+    <ClInclude Include="OneStageEnsembleStrategy.h" />
+    <ClInclude Include="PluralityVote.h" />
+    <ClInclude Include="PR1.h" />
+    <ClInclude Include="PR3.h" />
+    <ClInclude Include="PR4.h" />
+    <ClInclude Include="PreferentialBlockVoting.h" />
+    <ClInclude Include="PriorityHeuristic.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ProblemInstance.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ProblemInstanceGenerator.h" />
+    <ClInclude Include="PU1.h" />
+    <ClInclude Include="PU2.h" />
+    <ClInclude Include="RandomSubDataSet.h" />
+    <ClInclude Include="RankedPairs.h" />
+    <ClInclude Include="ReshuffleIndex.h" />
+    <ClInclude Include="RestrictedAutomaticDuplicateHeuristic.h" />
+    <ClInclude Include="RestrictedAutomaticEnsembleHeuristic.h" />
+    <ClInclude Include="RestrictedAutomaticHeuristicWithoutNextStack.h" />
+    <ClInclude Include="RestrictedGlobalRetrievalHeuristic.h" />
+    <ClInclude Include="RestrictedGlobalRetrievalHeuristicParameters.h" />
+    <ClInclude Include="RestrictedTwoTreesAutomaticHeuristic.h" />
+    <ClInclude Include="RolloutHeuristic.h" />
+    <ClInclude Include="RolloutHeuristicUnrestricted.h" />
+    <ClInclude Include="SchulzeMethod.h" />
+    <ClInclude Include="ScoreVoting.h" />
+    <ClInclude Include="SelectFirstAvailabelContainerStrategy.h" />
+    <ClInclude Include="SelectHighestContainerAlwaysStrategy.h" />
+    <ClInclude Include="SelectHighestContainerStrategy.h" />
+    <ClInclude Include="SelectMostContainersStrategy.h" />
+    <ClInclude Include="SolutionStorage.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="StarVoting.h" />
+    <ClInclude Include="StringUtils.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SequentialSubDataSet.h" />
+    <ClInclude Include="SumAggregationStrategy.h" />
+    <ClInclude Include="SumMethod.h" />
+    <ClInclude Include="Terminal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Terminals.h" />
+    <ClInclude Include="TidemanAlternativeSmith.h" />
+    <ClInclude Include="TLP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="RestrictedAutomaticHeuristic.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="UnifiedPrimary.h" />
+    <ClInclude Include="UnrestrictedAutomaticEnsembleHeuristic.h" />
+    <ClInclude Include="UnrestrictedAutomaticDuplicateHeuristic.h" />
+    <ClInclude Include="UnrestrictedAutomaticTwoTreesHeuristic.h" />
+    <ClInclude Include="UnrestrictedAutomaticHeuristicAllCombinations.h" />
+    <ClInclude Include="UnrestrictedAutomaticHeuristicAllCombinationsTwoTrees.h" />
+    <ClInclude Include="UnrestrictedAutomaticHeuristic.h" />
+    <ClInclude Include="UnrestrictedAutomaticHeuristicWithPrelocationRule.h" />
+    <ClInclude Include="UnrestrictedGlobalRetrievalHeuristic.h" />
+    <ClInclude Include="UnrestrictedGlobalRetrievalHeuristicParameters.h" />
+    <ClInclude Include="VoteAggregationStrategy.h" />
+    <ClInclude Include="WinnerStrategy.h" />
+    <ClInclude Include="ZhuDuplicateProblemInstanceGenerator.h" />
+    <ClInclude Include="ZhuDataSetLoader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ZhuDuplicateDataSetLoader.h" />
+    <ClInclude Include="ZhuDuplicateProblemSetGenerator.h" />
+    <ClInclude Include="ZhuProblemInstanceGenerator.h" />
+    <ClInclude Include="ZhuProblemSetGenerator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiPlurality.cpp" />
+    <ClCompile Include="ApprovalVoting.cpp" />
+    <ClCompile Include="BaldwinMethod.cpp" />
+    <ClCompile Include="BayFloor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BordaCount.cpp" />
+    <ClCompile Include="BucklinVoting.cpp" />
+    <ClCompile Include="CasertaDataSetLoader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CasertaProblemInstanceGenerator.cpp" />
+    <ClCompile Include="CasertaProblemSetGenerator.cpp" />
+    <ClCompile Include="CombinedApprovalVoting.cpp" />
+    <ClCompile Include="CondorcetMethod.cpp" />
+    <ClCompile Include="ContainerMove.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ContainerRelocationSolution.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ContainerSourceSelectionStrategy.cpp" />
+    <ClCompile Include="ContainerYard.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ContigentVoting.cpp" />
+    <ClCompile Include="CoombsMethod.cpp" />
+    <ClCompile Include="CopelandMethod.cpp" />
+    <ClCompile Include="crp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataSet.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DistributedVoting.cpp" />
+    <ClCompile Include="DynamicInstanceGenerator.cpp" />
+    <ClCompile Include="ElectoralSystem.cpp" />
+    <ClCompile Include="ElectoralSystemUtils.cpp" />
+    <ClCompile Include="EnsembleAggregationStrategy.cpp" />
+    <ClCompile Include="Evaluator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GlobalRetrievalHeuristicSettings.cpp" />
+    <ClCompile Include="HighestPriorityStrategy.cpp" />
+    <ClCompile Include="InstantRunoff.cpp" />
+    <ClCompile Include="JudgementMethod.cpp" />
+    <ClCompile Include="KemenyYoungMethod.cpp" />
+    <ClCompile Include="LeeDataSetLoader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="LeeProblemInstanceGenerator.cpp" />
+    <ClCompile Include="LeeProblemSetGenerator.cpp" />
+    <ClCompile Include="Location.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="LowestPriorityStrategy.cpp" />
+    <ClCompile Include="MajorityVote.cpp" />
+    <ClCompile Include="MiniMax.cpp" />
+    <ClCompile Include="MinimumAggregationStrategy.cpp" />
+    <ClCompile Include="MinMax.cpp" />
+    <ClCompile Include="NansonMethod.cpp" />
+    <ClCompile Include="OklahomaMethod.cpp" />
+    <ClCompile Include="OneStageEnsembleDecisionStrategy.cpp" />
+    <ClCompile Include="PluralityVote.cpp" />
+    <ClCompile Include="PR1.cpp" />
+    <ClCompile Include="PR3.cpp" />
+    <ClCompile Include="PR4.cpp" />
+    <ClCompile Include="PreferentialBlockVoting.cpp" />
+    <ClCompile Include="ProblemInstance.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="PU1.cpp" />
+    <ClCompile Include="PU2.cpp" />
+    <ClCompile Include="RandomSubDataSet.cpp" />
+    <ClCompile Include="RankedPairs.cpp" />
+    <ClCompile Include="ReshuffleIndex.cpp" />
+    <ClCompile Include="RestrictedAutomaticDuplicateHeuristic.cpp" />
+    <ClCompile Include="RestrictedAutomaticEnsembleHeuristic.cpp" />
+    <ClCompile Include="RestrictedAutomaticHeuristicWithoutNextStack.cpp" />
+    <ClCompile Include="RestrictedGlobalRetrievalHeuristic.cpp" />
+    <ClCompile Include="RestrictedGlobalRetrievalHeuristicParameters.cpp" />
+    <ClCompile Include="RestrictedTwoTreesAutomaticHeuristic.cpp" />
+    <ClCompile Include="RolloutHeuristic.cpp" />
+    <ClCompile Include="RolloutHeuristicUnrestricted.cpp" />
+    <ClCompile Include="SchulzeMethod.cpp" />
+    <ClCompile Include="ScoreVoting.cpp" />
+    <ClCompile Include="SelectFirstAvailabelContainerStrategy.cpp" />
+    <ClCompile Include="SelectHighestContainerAlwaysStrategy.cpp" />
+    <ClCompile Include="SelectHighestContainerStrategy.cpp" />
+    <ClCompile Include="SelectMostContainersStrategy.cpp" />
+    <ClCompile Include="SolutionStorage.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SequentialSubDataSet.cpp" />
+    <ClCompile Include="StarVoting.cpp" />
+    <ClCompile Include="SumAggregationStrategy.cpp" />
+    <ClCompile Include="SumMethod.cpp" />
+    <ClCompile Include="Terminal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Terminals.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TidemanAlternativeSmith.cpp" />
+    <ClCompile Include="TLP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="RestrictedAutomaticHeuristic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UnifiedPrimary.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticEnsembleHeuristic.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticDuplicateHeuristic.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticTwoTreesHeuristic.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticHeuristicAllCombinations.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticHeuristicAllCombinationsTwoTrees.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticHeuristic.cpp" />
+    <ClCompile Include="UnrestrictedAutomaticHeuristicWithPrelocationRule.cpp" />
+    <ClCompile Include="UnrestrictedGlobalRetrievalHeuristic.cpp" />
+    <ClCompile Include="UnrestrictedGlobalRetrievalHeuristicParameters.cpp" />
+    <ClCompile Include="VoteAggregationStrategy.cpp" />
+    <ClCompile Include="WinnerStrategy.cpp" />
+    <ClCompile Include="ZhuDuplicateProblemInstanceGenerator.cpp" />
+    <ClCompile Include="ZhuDataSetLoader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ZhuDuplicateDataSetLoader.cpp" />
+    <ClCompile Include="ZhuDuplicateProblemSetGenerator.cpp" />
+    <ClCompile Include="ZhuProblemInstanceGenerator.cpp" />
+    <ClCompile Include="ZhuProblemSetGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ensParam.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

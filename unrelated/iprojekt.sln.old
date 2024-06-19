@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iprojekt", "iprojekt.vcproj", "{CC95F76E-C9E9-4A63-9923-2C205320A779}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACO", "ACO\ACO.vcproj", "{F323E613-0975-4207-87F0-7AB440A45390}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stats", "stats\stats.vcproj", "{95C34D75-D8DB-4D20-A9AE-3CEEB95930A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC95F76E-C9E9-4A63-9923-2C205320A779}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC95F76E-C9E9-4A63-9923-2C205320A779}.Debug|Win32.Build.0 = Debug|Win32
+		{CC95F76E-C9E9-4A63-9923-2C205320A779}.Release|Win32.ActiveCfg = Release|Win32
+		{CC95F76E-C9E9-4A63-9923-2C205320A779}.Release|Win32.Build.0 = Release|Win32
+		{F323E613-0975-4207-87F0-7AB440A45390}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F323E613-0975-4207-87F0-7AB440A45390}.Debug|Win32.Build.0 = Debug|Win32
+		{F323E613-0975-4207-87F0-7AB440A45390}.Release|Win32.ActiveCfg = Release|Win32
+		{F323E613-0975-4207-87F0-7AB440A45390}.Release|Win32.Build.0 = Release|Win32
+		{95C34D75-D8DB-4D20-A9AE-3CEEB95930A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95C34D75-D8DB-4D20-A9AE-3CEEB95930A8}.Debug|Win32.Build.0 = Debug|Win32
+		{95C34D75-D8DB-4D20-A9AE-3CEEB95930A8}.Release|Win32.ActiveCfg = Release|Win32
+		{95C34D75-D8DB-4D20-A9AE-3CEEB95930A8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+<ECF>
+	<Algorithm>
+		<SteadyStateTournament>
+			<Entry key="tsize">3</Entry> <!-- velicina turnira -->
+		</SteadyStateTournament>
+	</Algorithm>
+
+	<Genotype>
+		<Tree>
+			<Entry key="maxdepth">5</Entry>
+			<Entry key="mindepth">1</Entry>
+			<Entry key="functionset">+ - / * pos</Entry>
+			<Entry key="terminalset">pt dd w SL pmin pavg PAT MR age</Entry>
+			<Entry key="crx.simple">1</Entry>
+			<Entry key="crx.simple.functionprob">0.9</Entry>
+			<Entry key="crx.context">1</Entry>
+			<Entry key="crx.sizefair">1</Entry>
+			<Entry key="crx.onepoint">0</Entry>
+			<Entry key="crx.uniform">1</Entry>
+			<Entry key="mut.subtree">1</Entry>
+			<Entry key="mut.permutation">1</Entry>
+			<Entry key="mut.gauss">1</Entry>
+			<Entry key="mut.hoist">1</Entry>
+			<Entry key="mut.nodecomplement">1</Entry>
+			<Entry key="mut.nodereplace">1</Entry>
+			<Entry key="mut.shrink">1</Entry>
+		</Tree>
+	</Genotype>
+
+	<Registry>
+		<Entry key="population.size">1000</Entry>
+		<Entry key="population.demes">1</Entry>
+		<Entry key="mutation.indprob">0.3</Entry> 
+		<Entry key="term.maxgen">80</Entry>
+		<Entry key="log.level">3</Entry>
+		<Entry key="log.filename">log.txt</Entry>
+		<Entry key="test_cases">./fitness.txt</Entry>
+		<Entry key="batch.repeats">10</Entry>
+		<Entry key="batch.statsfile">stats.txt</Entry>
+	</Registry>
+</ECF>
+

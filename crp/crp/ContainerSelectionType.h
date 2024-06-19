@@ -1,0 +1,8 @@
+#pragma once
+
+enum ContainerSelectionType
+{
+	SELECT_FIRST_AVAILABLE_STRATEGY,
+	SELECT_HIGHEST_STRATEGY,
+	SELECT_MOST_STRATEGY
+};

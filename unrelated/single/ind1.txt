@@ -1,0 +1,4 @@
+	<Individual size="1" gen="69">
+		<FitnessMin value="228.246"/>
+		<Tree size="23">+ / pt w + / pos * pt SL / + SD AR dd + pos + w SL / pt w </Tree>
+	</Individual>

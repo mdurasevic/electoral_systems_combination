@@ -1,0 +1,4 @@
+method eval
+size 5
+combination collab1
+repetitions 100

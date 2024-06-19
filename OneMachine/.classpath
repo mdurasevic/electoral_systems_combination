@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="framework/calculo_ensembles_colaborativos/electoralsystems/impl/|framework/calculo_ensembles_colaborativos/electoralsystems/noUSAR/" kind="src" path="Actual"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/cmaes_java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/poi-ooxml-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fjgil/OneDrive - Universidad de Oviedo/eclipse-workspace/_librerias/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

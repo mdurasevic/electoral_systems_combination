@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Electoral Methods">
+      <UniqueIdentifier>{4e6fc37f-c765-427b-84f7-3a4930ff75f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Electoral Methods">
+      <UniqueIdentifier>{4ad0d339-f268-475f-9c2b-def5d61e9cc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataSetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuDataSetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasertaDataSetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeDataSetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerYard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TLP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BayFloor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerRelocationSolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReshuffleIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedAutomaticHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedAutomaticHeuristicWithoutNextStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasertaProblemInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasertaProblemSetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequentialSubDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuProblemInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuProblemSetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSubDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PR1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PR3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PR4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PU1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PU2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedTwoTreesAutomaticHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticHeuristicAllCombinations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticHeuristicAllCombinationsTwoTrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticHeuristicWithPrelocationRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticTwoTreesHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeProblemInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeeProblemSetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuDuplicateDataSetLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuDuplicateProblemInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZhuDuplicateProblemSetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerSourceSelectionStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectHighestContainerStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectHighestContainerAlwaysStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedAutomaticDuplicateHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticDuplicateHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectFirstAvailabelContainerStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerSelectionType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMostContainersStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedAutomaticEnsembleHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnsembleDecisionStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneStageEnsembleStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnsembleAggregationStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumAggregationStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoteAggregationStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimumAggregationStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalRetrievalHeuristicSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedGlobalRetrievalHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedGlobalRetrievalHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedAutomaticEnsembleHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrestrictedGlobalRetrievalHeuristicParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictedGlobalRetrievalHeuristicParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnifiedPrimary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinnerStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HighestPriorityStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LowestPriorityStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RolloutHeuristic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RolloutHeuristicUnrestricted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiPlurality.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ApprovalVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="BaldwinMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributedVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectoralSystem.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectoralSystemUtils.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="InstantRunoff.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="JudgementMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMax.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorityVote.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="BordaCount.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="BucklinVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="CondorcetMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="CopelandMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ContigentVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="CoombsMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="KemenyYoungMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="OklahomaMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="NansonMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="PreferentialBlockVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="RankedPairs.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="SchulzeMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="StarVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="TidemanAlternativeSmith.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinedApprovalVoting.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="PluralityVote.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="SumMethod.h">
+      <Filter>Header Files\Electoral Methods</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicInstanceGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BayFloor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasertaDataSetLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerRelocationSolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerYard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeeDataSetLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProblemInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TLP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuDataSetLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReshuffleIndex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedAutomaticHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedAutomaticHeuristicWithoutNextStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasertaProblemInstanceGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasertaProblemSetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequentialSubDataSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuProblemInstanceGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuProblemSetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSubDataSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PR1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PR3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PR4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PU1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PU2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedTwoTreesAutomaticHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticHeuristicAllCombinations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticHeuristicAllCombinationsTwoTrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticHeuristicWithPrelocationRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticTwoTreesHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeeProblemInstanceGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeeProblemSetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuDuplicateDataSetLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuDuplicateProblemInstanceGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZhuDuplicateProblemSetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerSourceSelectionStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectHighestContainerStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectHighestContainerAlwaysStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedAutomaticDuplicateHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticDuplicateHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectFirstAvailabelContainerStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMostContainersStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedAutomaticEnsembleHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneStageEnsembleDecisionStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnsembleAggregationStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumAggregationStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoteAggregationStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumAggregationStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalRetrievalHeuristicSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedGlobalRetrievalHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedGlobalRetrievalHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedAutomaticEnsembleHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnrestrictedGlobalRetrievalHeuristicParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictedGlobalRetrievalHeuristicParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinnerStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinedApprovalVoting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HighestPriorityStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestPriorityStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RankedPairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnifiedPrimary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RolloutHeuristic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RolloutHeuristicUnrestricted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiPlurality.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ApprovalVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="BaldwinMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="BordaCount.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="BucklinVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="CondorcetMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ContigentVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="CoombsMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="CopelandMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributedVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectoralSystem.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectoralSystemUtils.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="InstantRunoff.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgementMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="KemenyYoungMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMax.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityVote.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferentialBlockVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="PluralityVote.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="OklahomaMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="NansonMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="SchulzeMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="StarVoting.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="TidemanAlternativeSmith.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="SumMethod.cpp">
+      <Filter>Source Files\Electoral Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicInstanceGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ensParam.txt" />
+  </ItemGroup>
+</Project>

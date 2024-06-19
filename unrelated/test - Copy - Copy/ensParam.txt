@@ -1,0 +1,4 @@
+method eval
+size 2
+combination sum
+repetitions 100

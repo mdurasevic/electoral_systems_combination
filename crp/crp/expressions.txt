@@ -1,0 +1,52 @@
++ RI DUR 
+- + RI DUR + EMP CUR 
++ DUR * RI / SH / + DUR EMP - RI DIFF 
++ DUR * RI / SH / + DUR EMP - RI DIFF 
++ + RI DUR * RI / SH / + DUR EMP - RI DIFF 
++ + RI DUR * RI / SH / + DUR EMP - RI DIFF 
++ * RI + SH - + DUR EMP DUR DUR 
++ * RI + SH - + DUR EMP DUR DUR 
++ DUR * RI / SH / * DUR RI - CUR DIFF 
++ DUR * / RI DUR + - RI DIFF CUR 
++ + + / DUR RI DUR DUR * RI / SH / + DUR EMP - RI DIFF 
++ + + / DUR RI DUR DUR * RI / SH / + DUR EMP - RI DIFF 
++ + + / DUR RI DUR DUR * RI / SH / + DUR EMP - RI DIFF 
++ + RI / SH / * DUR RI - CUR DIFF DUR 
++ + RI / SH / * DUR RI - CUR DIFF DUR 
++ + + RI DUR RI + RI / SH / * DUR RI - CUR DIFF 
++ + + RI DUR + SH - + DUR EMP DUR + RI / SH / * DUR RI - DUR DIFF 
++ + + RI DUR + SH - + DUR EMP DUR + RI / SH / * DUR RI - DUR DIFF 
++ + + + DUR * SH RI / + RI DUR * DIS CUR EMP * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH * SH RI / - AVG CUR * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - SH DIFF 
++ + + + - DUR SH RI / - AVG DUR * RI CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG DUR * RI CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG DUR * RI CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - RI CUR * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - RI CUR * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / RI * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / EMP * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / EMP * DIS CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH * SH RI RI * / / DUR DUR DUR - / CUR RI RI + EMP / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH * SH RI EMP * / / DUR DUR DUR - / CUR RI DUR + RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI RI * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG CUR * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * RI AVG * / / DUR DUR DUR - / CUR RI CUR * + RI / RI * DUR CUR / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * RI AVG * / / DUR DUR DUR - / CUR RI CUR * + RI / RI * DUR CUR / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * RI AVG * / / DUR DUR DUR - / CUR RI CUR * + RI / RI * DUR CUR / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / AVG * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / AVG * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG EMP * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG EMP * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / - AVG EMP * SH CUR * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * SH AVG * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * SH AVG * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * SH AVG * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * SH AVG * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
++ + + + - DUR SH RI / + AVG CUR * SH AVG * / / DUR DUR DUR - / CUR RI / AVG DIFF * RI / SH / * DUR RI - DUR DIFF 
